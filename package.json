@@ -1,0 +1,29 @@
+{
+  "name": "prayercoin",
+  "version": "1.0.0",
+  "description": "Prayer solidity contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConsciousComputation/PrayerCoin.git"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "truffle",
+    "consciousness",
+    "experiments"
+  ],
+  "author": "Meredith Finkelstein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ConsciousComputation/PrayerCoin/issues"
+  },
+  "homepage": "https://github.com/ConsciousComputation/PrayerCoin#readme",
+  "dependencies": {
+    "openzeppelin-solidity": "^2.1.2"
+  }
+}
