@@ -1,3 +1,3 @@
 # PrayerCoin
-Prayers on the Universal Computer
-
+=======
+Prayers on the World Computer
