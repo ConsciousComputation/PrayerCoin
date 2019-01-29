@@ -4,7 +4,7 @@ import "openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol"
 import "openzeppelin-solidity/contracts/ownership/Ownable.sol"
 import "openzeppelin-solidity/contracts/math/SafeMath.sol"
 
-contract PrayerToken is ERC721Full,Ownable{
+contract Liturgy is Ritual{
     
     using SafeMath for uint256;
     using SafeMath32 for uint32;

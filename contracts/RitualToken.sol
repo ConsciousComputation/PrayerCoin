@@ -4,7 +4,7 @@ import "openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol"
 import "openzeppelin-solidity/contracts/ownership/Ownable.sol"
 import "openzeppelin-solidity/contracts/math/SafeMath.sol"
 
-contract PrayerToken is ERC721Full,Ownable{
+contract RitualToken is ERC721Full,Ownable{
     
     using SafeMath for uint256;
     using SafeMath32 for uint32;
@@ -55,9 +55,9 @@ contract PrayerToken is ERC721Full,Ownable{
         }
         emit NewPrayer(_message,_strength,_schedule,_action,_parentId);
     }
-    function createPrayer(string _message) public {
-        uint32 _parentId = prayerToId[_message];            
-        _createPrayer(_message, 0,"","",_parentId);
+    contract AugmentPrayer is PrayerToken{
+            
+    }
   }
 
 }
